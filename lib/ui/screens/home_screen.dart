@@ -28,6 +28,55 @@ class HomeScreen extends StatelessWidget {
                     TrainingDisplay(exerciseName: "back"),
                   ],
                 ),
+                const Padding(padding: EdgeInsets.all(20)),
+                const Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    TrainingDisplay(exerciseName: "biceps"),
+                  ],
+                ),
+                const Padding(padding: EdgeInsets.all(20)),
+                const Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    TrainingDisplay(exerciseName: "calves"),
+                  ],
+                ),
+                const Padding(padding: EdgeInsets.all(20)),
+                const Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    TrainingDisplay(exerciseName: "chest"),
+                  ],
+                ),
+                const Padding(padding: EdgeInsets.all(20)),
+                const Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    TrainingDisplay(exerciseName: "frontLegs"),
+                  ],
+                ),
+                const Padding(padding: EdgeInsets.all(20)),
+                const Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    TrainingDisplay(exerciseName: "lowerBack"),
+                  ],
+                ),
+                const Padding(padding: EdgeInsets.all(20)),
+                const Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    TrainingDisplay(exerciseName: "shoulders"),
+                  ],
+                ),
+                const Padding(padding: EdgeInsets.all(20)),
+                const Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    TrainingDisplay(exerciseName: "thighs"),
+                  ],
+                ),
                 Text(exerciseController.number1.toString())
 
               ],
